@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CRUD de Animais</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>CRUD de Animais</h1>
+
+        <form id="animal_form">
+            <label for="animal_name">Nome do Animal:</label>
+            <input type="text" id="animal_name" required>
+            <button type="submit">Adicionar</button>
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome do Animal</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody id="animal_list">
+            </tbody>
+        </table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="CRUD.js"></script>
+</body>
+
+</html>

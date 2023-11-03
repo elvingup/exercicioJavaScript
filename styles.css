@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+table th {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+table td {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+form {
+    margin: 20px 0;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+form button {
+    display: block;
+    margin-top: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
